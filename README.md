@@ -1,18 +1,11 @@
-Iquidus Explorer - 1.6.1
+Sucrecoin Explorer - 1.6.2
 ================
 
 An open source block explorer written in node.js.
 
 ### See it in action
 
-*  [Jumbucks](http://explorer.getjumbucks.com)
-*  [Sphere](http://sphere.iquidus.io)
-*  [SAR](http://explorer.sarcoin.info)
-*  [Vanillacoin](https://blockchain.vanillacoin.net/)
-*  [Neoscoin](http://explorer.infernopool.com/)  
-*  [C2Chain](http://c2chain.info/)
-
-*note: If you would like your instance mentioned here contact me*
+*  [Sucrecoin](http://explorer.sucrecoin.org)
 
 ### Requires
 
@@ -32,7 +25,7 @@ Create databse:
 
 Create user with read/write access:
 
-    > db.createUser( { user: "iquidus", pwd: "3xp!0reR", roles: [ "readWrite" ] } )
+    > db.createUser( { user: "sucrecoin", pwd: "sucrecoin", roles: [ "readWrite" ] } )
 
 *note: If you're using mongo shell 2.4.x, use the following to create your user:
 
@@ -40,7 +33,7 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/iquidus/explorer explorer
+    git clone https://github.com/ifgiovanni/explorer-sucrecoin explorer
 
 ### Install node modules
 
@@ -100,14 +93,19 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
 
 ### Wallet
 
-Iquidus Explorer is intended to be generic so it can be used with any wallet following the usual standards. The wallet must be running with atleast the following flags
+Sucrecoin Explorer is intended to be generic so it can be used with any wallet following the usual standards. The wallet must be running with atleast the following flags
 
     -daemon -txindex
 
 ### Donate
+    
+    - SUCRECOIN:
+    BTC: 1Fgxb57c8K7NcZio9HSCT9vkzmFRvX6sF5
+    ETH: 0x337094D11c4B3205Af8b17B0058468403517C689
 
-    BTC: 168hdKA3fkccPtkxnX8hBrsxNubvk4udJi
-    JBS: JZp9893FMmrm1681bDuJBU7c6w11kyEY7D
+    - DEVELOPER IFGIOVANNI
+    BTC: 3719T7UyKSTKb4uNM3JzckWvbqw2PGYcGq
+    PAYPAL: paypal.me/ifgiovanni
 
 ### Known Issues
 
@@ -139,6 +137,8 @@ Where [SIZE] is an integer higher than the default.
 
 Copyright (c) 2015, Iquidus Technology  
 Copyright (c) 2015, Luke Williams  
+Copyright (c) 2017, Sucrecoin.org
+Copyright (c) 2017, IFGIOVANNI
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
